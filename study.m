@@ -54,9 +54,10 @@ function study(varargin)
   %% following parameters, by hand. A fully automated study would have
   %% arrays here, and iterate over them. In that case, something
   %% should be added 'output_file_prefix' to distinguish results.
-  NN = 1;
-  f_op = 2;  %% only values 2 or 4 are allowed
   fixed_width = true;
+  NN = 1;        % values 1 and 3 were used, and denoted as 'n' in the poster.
+  f_op = 2;      % only values 2 or 4 are allowed.
+
 
   for i=i_ini:-1:1
 
