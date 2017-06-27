@@ -47,8 +47,8 @@ function study(varargin)
   %% coeficient to amplify feedback
   A = linspace(10,50,length(n));
 
-  t_max(1:17)         = 10;
-  t_max(18:length(n)) = 10;
+  t_max(1:17)         = 200;
+  t_max(18:length(n)) = 200;
 
   %% There is acctually another level of the study, where you vary the
   %% following parameters, by hand. A fully automated study would have
