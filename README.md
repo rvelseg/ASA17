@@ -36,7 +36,7 @@ windows 7.
 To generate videos matlab is needed, by now. I expect to fix this soon
 for Octave in Linux.
 
-If you are working in Octave, and make changes to `propagator.m` you will need to
+If you are working in Octave, and make changes to `propagator.m`, before each call to `study` you will need to
 ```Octave
 > clear all;
 ```
