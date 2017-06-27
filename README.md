@@ -27,9 +27,11 @@ which will start in run 24.
 The whole presented study has 6 calls to the script `study` see details in
 the script.
 
-The code has been tested most extensivelly in GNU/Linux/Debian/Jessie
-over Octave 4.2, but also in matlab 2016b, over Jessie, and over
-windows 7.
+The code has been tested most extensivelly in Octave 4.2 over
+GNU/Linux/Debian/Jessie, but also in matlab 2016b, over Jessie, and
+over windows 7.
+
+If using Octave the "signal" package is needed.
 
 # Known issues
 
