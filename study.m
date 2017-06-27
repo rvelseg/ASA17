@@ -30,7 +30,7 @@
 
 function study(varargin)
 
-  %% Exceution of this script took about 10 hours.
+  %% Execution of this script took about 10 hours.
 
   %% Experiment number
   n = [1:43];
